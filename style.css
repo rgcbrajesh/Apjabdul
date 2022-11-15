@@ -1,0 +1,62 @@
+body{
+    background-color:rgba(100, 230, 208, 0.842)
+}
+div{
+    display:flex; 
+    align-items:center; 
+    justify-content:space-between;
+}
+#topic
+{
+    style="display:flex; align-items:center; justify-content:space-between;"
+    font face="stencil"
+}
+h2
+{
+    font face="Forte"
+}
+#im{
+    height:200px ;
+    width:200px;
+}
+
+#apj{
+    width:600px ;
+}
+/* div{
+    border: solid black 3px;
+} */
+#speech{
+    font: size 2cm;
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        background-color:white ;
+    }
+    #im{
+        height:100px ;
+        width:100px ;
+    }
+    #apj{
+        width:200px ;
+    }
+    #topic{
+        font-size:large;
+    }
+    li{
+        font-size:15px ;
+    }
+    #award{
+        height:200px ;
+        width:150px ;
+    }
+    #speech{
+        font-size:20px ;
+    }
+    #you{
+        align-items:left ;
+        height:100px ;
+    }
+   
+  }
